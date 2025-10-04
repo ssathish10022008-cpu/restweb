@@ -1,0 +1,91 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fdf6f0;
+  color: #333;
+}
+
+header {
+  background-color: #262a2a;
+  color:#333;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: center;
+}
+
+section.content {
+  padding: 40px;
+  text-align: center;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 40px;
+}
+
+.menu-item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.menu-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.admin-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+  justify-content: center;
+}
+
+.admin-card {
+  width: 200px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.admin-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.contact-info {
+  padding: 40px;
+  text-align: center;
+  line-height: 1.8;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
